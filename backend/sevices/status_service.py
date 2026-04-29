@@ -1,4 +1,4 @@
-def get_status_service():
+def get_status_data():
     return {
         "status": "ok",
         "massage": "Backend работает",
