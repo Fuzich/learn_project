@@ -5,7 +5,7 @@ app = APIFlask(
     __name__,
     title="Backend API",
     version="1.0.0",
-    docs_url="/docs"
+    docs_path="/docs"          #docs_url заменили на docs_path
 )
 
 app.config["SYNC_LOCAL_SPEC"] = False
