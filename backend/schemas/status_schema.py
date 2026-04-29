@@ -3,6 +3,6 @@ from apiflask.fields import String, Integer
 
 class StatusOuSchema(Schema):
     status = String()
-    messages = String()
+    message = String()
     service = String()
     items_count = Integer()
